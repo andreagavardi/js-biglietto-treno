@@ -65,7 +65,7 @@ Questo richiederà un minimo di ricerca.  */
    messaggio.innerHTML = 'I valori digitati sono errati, ricarica la pagina per favore';
 
 } else {
-    document.getElementById("msg").innerHTML= 'Il prezzo del tuo biglietto finale è di ' + prezzoReale + '€';
+    messaggio.innerHTML= 'Il prezzo del tuo biglietto finale è di ' + prezzoReale + '€';
     document.getElementById("km").innerHTML= kmUtente + 'km';
     document.getElementById("anni").innerHTML= anniUtente + ' anni';
 }
